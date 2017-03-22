@@ -36,14 +36,10 @@ $(document).ready(function() {
     var tweetBtn = $('<a></a>')
         .addClass('twitter-share-button')
         .attr('href', 'http://twitter.com/share')
-        .attr('data-url', 'http://test.com')
+        .attr('data-url', 'http://annsiapno.com')
         .attr('data-text', tweet);
     $('#tweetBtn').append(tweetBtn);
     twttr.widgets.load();
 });
 
     });
-
-
-
-
